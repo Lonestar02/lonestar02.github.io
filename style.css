@@ -84,6 +84,12 @@
     cursor: pointer;
 }
 
+.btn-sm{
+    font-size: 15px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
 .btn:hover{
     background-color: white;
     color: midnightblue;
@@ -135,4 +141,64 @@
 #form-check input{
     width: 24px;
     margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: "Playfair Display", serif;
+}
+h1{
+    font-family: "Playfair Display", serif;
+    margin: 23px;
+}
+
+p{
+    font-family: "Lora", serif;
+    
+}
+
+.intro h2{
+    font-family: "Playfair Display", serif;
+    margin: 12px ;
+}
+
+.intro p{
+    font-family: "Lora", serif;
+    margin: 12px ;
+}
+
+.skillIem{
+    display: flex;
+    align-items: center;
+}
+
+.skillContainer{
+    padding: 12px;
+    margin: 15px;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.skill{
+    width: 256px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+    font-family: "Lora", serif;
+    
+}
+
+.hundred{
+    width: 256px;
+    background-color: chartreuse;
+}
+
+.fifty{
+    width: 125px;
+    background-color: rgb(51, 53, 218);
+}
+
+.t5{
+    width: 75px;
+    background-color: coral;
 }
